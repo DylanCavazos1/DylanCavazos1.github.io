@@ -1,7 +1,28 @@
 /* styles.css */
-p { 
-    color: red; 
+body { 
+    color: #00FF41; 
     background-color: black;
-    font-size: 20px; }
+    font-size: 20px;
+    font-family: 'Courier New', monospace;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0 20px;
+ }
 
-b { background-color: black; }
+p { 
+    font-size: 18px 
+}
+
+a {
+    color: #00FF41;
+    text-decoration: none;
+}
+
+header, footer {
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #00FF41
+}
