@@ -1,4 +1,7 @@
 /* styles.css */
-p { color: red; font-size: 20px; }
+p { 
+    color: red; 
+    background-color: black;
+    font-size: 20px; }
 
 b { background-color: black; }
