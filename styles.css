@@ -1,12 +1,26 @@
 /* styles.css */
 body { 
-    
-    background-color: black;
- 
+    background-color: rgb(85, 65, 65);
+    background-image: url("advisor.PNG");
  }
 
-p { 
-    font-size: 18px 
+ title {
+    background-color: rgb(158, 193, 194)
+ }
+
+ h2{
+    background-color: rgb(43, 104, 58);
+    opacity: 0.6;
+ }
+
+p, p.ridge { 
+    font-size: 18px; 
+    border-style: solid;
+    margin: 25px 50px 75px 100px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 }
 
 
@@ -15,3 +29,15 @@ header, footer {
     text-align: center;
 }
 
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+    font-size:150%;
+}
