@@ -1,0 +1,9 @@
+course,title,prereq1,prereq2
+MATH201,Discrete Mathematics,n/a,n/a
+CSCI300,Introduction to Algorithms,CSCI200,MATH201
+CSCI350,Operating Systems,CSCI300,n/a
+CSCI101,Introduction to Programming in C++,CSCI100,n/a
+CSCI100,Introduction to Computer Science,n/a,n/a
+CSCI301,Advanced Programming in C++,CSCI101,n/a
+CSCI400,Large Software Development,CSCI301,CSCI350
+CSCI200,Data Structures,CSCI101,n/a

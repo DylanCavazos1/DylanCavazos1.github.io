@@ -6,64 +6,89 @@
     <title>CS 499 ePortfolio</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
 
-    <header>
-        <title>Welcome to my CS 499 ePortfolio</title>
+<body>
+    <header class="hero">
+        <nav class="navbar background">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="artifact1.html">Artifact One</a></li>
+                <li><a href="artifact2.html">Artifact Two</a></li>
+                <li><a href="artifact3.html">Artifact Three</a></li>
+            </ul>
+        </nav>
+        <div class="hero-text">
+            <h1>CS 499 ePortfolio</h1>
+        </div>
     </header>
 
     <main>
         <section>
-            <h2> Github Repository </h2>
-            <p>
-                Public Github Repository: 
-                <br>
-                <a 
-                href="https://github.com/DylanCavazos1/DylanCavazos1.github.io">
-                Visit my GitHub Repository
-                </a>
-            </p>
-        </section>
-
-        <section>
-            <h2> Artifact Repository </h2>
-            <p>
-                This repository contains the enhanced version of my Course Manager project, featuring a Binary Search Tree (BST) for efficient in-memory traversal and integration with a PostgreSQL database for persistent storage:
-                <br>
-                <a href="https://github.com/DylanCavazos1/DylanCavazos1.github.io">
-                    View the Course Manager Python Repository
-                </a>
-            </p>
-        </section>
-
-        <section>
-            <h2>Artifact Summary</h2>
-            <p>
-                Originally, this CLI application used a hash table to manage course data loaded from a CSV file. I enhanced the program by:
-            </p>
+            <h2>Table of Contents</h2>
             <ul>
-                <li>Implementing a Binary Search Tree (BST) for in-memory course retrieval</li>
-                <li>Integrating PostgreSQL for persistent course data between sessions</li>
-                <li>Adding synchronization options between the BST and the database</li>
-                <li>Including CLI functionality to support full CRUD operations</li>
+                <li><a href="#self-assessment">Professional Self-Assessment</a></li>
+                <li><a href="#code-review">Code Review Videos</a></li>
+                <li><a href="#artifact1.html">Artifact One: Software Design and Engineering</a></li>
+                <li><a href="#artifact2.html">Artifact Two: Data Structures and Algorithms</a></li>
+                <li><a href="#artifact3.html">Artifact Three: Databases</a></li>
             </ul>
         </section>
 
+        <section id="self-assessment">
+            <h2>Professional Self-Assessment</h2>
+            <p>[Need to Add Self-Assemssment]</p>
+        </section>
+
         <section>
-            <h2> Code Review Video</h2>
+            <h2>Github Repository</h2>
+            <p>Please check out my GitHub repository below!</p>
+          
+            <p>Public Github Repository:</p>
+          
+            <a href="https://github.com/DylanCavazos1/DylanCavazos1.github.io" target="_blank">
+              <img src="assets/github.png" alt="GitHub Logo" style="width: 200px; margin: 20px; display: block;">
+            </a>
+
             <p>
-                Artifact code review:
-                <br>
-                <a href="https://youtu.be/ht1_IJ6qJv8">Milestone One: Code Review Part One</a>
-                <br>
-                <a href="https://youtu.be/XJDGEYHm7I0">Milestone Two: Code Review Part Two</a>
+              <a href="https://github.com/DylanCavazos1/DylanCavazos1.github.io" target="_blank">
+                Visit my GitHub Repository
+              </a>
             </p>
+          </section>
+
+        <section id="code-review">
+            <h2>Code Review Videos</h2>
+            <ul>
+                <li><a href="https://youtu.be/ht1_IJ6qJv8" target="_blank">Milestone One: Code Review Part One</a></li>
+                <li><a href="https://youtu.be/XJDGEYHm7I0" target="_blank">Milestone One: Code Review Part One</a></li>
+            </ul>
+            <p>
+                During my code review I analyzed the preexisting code structure for the Course Manager project, and described how my planned enhancements would improve upon the original project.
+                I also identify the existing weaknessess, limitations, and vulnerabilities that are inherent throughout. I also cover what the code does, the existing features and functions, along with targeted 
+                areas of improvement related to the structure, logic, effeciency, functionality, security, testing, commenting, and documentation that accompanies it. The enhancements cover the three categories Including
+                software design and engineering, data structures and algorithms, and databases.  
+            </p>
+        </section>
+
+        <section class="artifact-summary">
+                <h2>Course Manager</h2>
+                <p>
+                    Originally, this CLI application used a hash table to manage course data loaded from a CSV file. I enhanced the program by:
+                </p>
+                <ul>
+                    <li>Implementing a Binary Search Tree (BST) for in-memory course retrieval</li>
+                    <li>Integrating PostgreSQL for persistent course data between sessions</li>
+                    <li>Adding synchronization options between the BST and the database</li>
+                    <li>Including CLI functionality to support full CRUD operations</li>
+                </ul>
+                <img src="assets/hash table.png">
+                <img src="assets/courses.png">
         </section>
 
         <section>
             <h2>Software Design and Engineering</h2>
             <p>
-                The first enhancement for the Software Design and Engineering artifact was the conversion to Python from C++ Course Manager project.
+                The first <a href="file:///C:/Users/dcava/OneDrive%20-%20SNHU/Documents/GitHub/DylanCavazos1.github.io/artifact1.html">enhancement</a> for the Software Design and Engineering artifact was the conversion to Python from C++ Course Manager project.
                 Originally, this program loaded course data from a CSV file and utilized a Hash Table to store the courses for retrieval and management. This enhancement is aimed at creating
                 a program that utilizes object-oriented principles in a more maintainable and readable language such as Python. Currently, it utilizes 
                 a dictionary to store the course objects and allows a user to perform various operations like Create, Read, Update, or Delete any courses. 
@@ -72,9 +97,32 @@
                 <br>
                 <a href="https://github.com/DylanCavazos1/DylanCavazos1.github.io/tree/main/artifacts/Enhancement%20One">Milestone Two: Software Design and Engineering</a>
             </p>
+            <img src="assets/dictionary.png">
         </section>
-        <h2>I'm hosted with GitHub Pages.</h2>
-    </main>
 
+        <section>
+            <h2>Data Structure and Algorithms</h2>
+            <p>
+                Converted the dictionary to a Binary Search Tree. <a href=file:///C:/Users/dcava/OneDrive%20-%20SNHU/Documents/GitHub/DylanCavazos1.github.io/artifact2.html>See Enhancement</a>
+                <br>
+                Artifact Two:
+                <br>
+            </p>
+            <img src="assets/BST.png">
+        </section>
+
+        <section>
+            <h2>Databases</h2>
+            <p>
+                Implemented PostgreSQL for persistent storage in a relational database. <a href=file:///C:/Users/dcava/OneDrive%20-%20SNHU/Documents/GitHub/DylanCavazos1.github.io/artifact3.html>See Enhancement</a> 
+                Artifact One:
+                <br>
+            </p>
+            <img src="assets/database.png">
+            <img src="assets/python database.png">
+        </section>
+
+    </main>
+    <h4>I'm hosted with GitHub Pages.</h4>
 </body>
 </html>
