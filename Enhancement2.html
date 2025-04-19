@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artifact Two - Data Structures and Algorithms</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"> <!--Found using "https://fonts.google.com/specimen/Kaushan+Script?preview.text=Dylan%20Cavazos&categoryFilters=Feeling:%2FExpressive%2FArtistic" -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Imperial+Script&family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <header class="hero">
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Enhancement1.html">Enhancement One</a></li>
+            <li><a href="Enhancement2.html">Enhancement Two</a></li>
+            <li><a href="Enhancement3.html">Enhancement Three</a></li>
+        </ul>
+    </nav>
+    <div class="hero-text">
+        <h1>Dylan Cavazos ePortfolio</h1>
+        <h2>CS 499 Capstone</h2>
+    </div>
+</header>
+
+  <main>
+    <section>
+      <div class="section-banner">
+        <img src="assets/summary.jpg" alt="Summary Banner" class="banner-image">
+        <div class="summary-header">
+            <h2>Summary</h2>
+        </div>
+      </div>
+      <p>Originally, the Course Manager program utilized a Hash Table as the primary data structure along with a linked-list for handling cases when the current node was already occupied by a course. For this enhancement I wanted to replace the 
+        Hash Table with a Binary Search Tree that would use In-Order Traversal to efficiently search for a specific course using a tree node structure. 
+        <br>
+        <br>
+        In the Binary Search Tree, the courses would be arranged in a hierarchical structure
+        with courses whose course ID were lower, they would become the sub-trees from their respective parent nodes. This data structure allows for more efficient searching when needing to perform operations on a course object, such as adding
+        a course, editing a current course, or deleting a course, and also printing the course list. 
+      </p>
+      <img src="assets/BST.png">
+      <br>
+      <br>
+      <img src="assets/bst2.png">
+    </section>
+
+    <section>
+      <div class="section-banner">
+        <img src="assets/chalk.jpg" alt="Summary Banner" class="banner-image">
+        <div class="summary-header">
+          <h2>Enhancement Description</h2>
+        </div>
+      </div>
+      <p>
+        For this enhancement, I introduced a Binary Search Tree class that would handle the insertion, traversal, and CRUD functionality related to course objects. Upon each method, that method would recursively call itself until the desired 
+        node storing the course object was found. For example, when searching for a course the search function used recursion to traverse the subtree to determine if the course ID of that course object was lesser or greater than the current Node
+        until the desired course was obtained. 
+        <br>
+        <br>
+        The BST also utilizes In-Order Traversal to retrieve and display the courses in sorted order, the in-order traversal method recursively traverses the trees and stores the courses in an empty list, sorts them
+        and returns the complete list sorted according to course ID. The BST was implemented in a separate class to maintain modularity and clean structure, while the Course Manager class interacted with its methods for course operations. 
+        <br>
+        <br>
+        The CRUD operations were also modified to replacing the dictionary with BST-based logic, that way the operations performed by the user would utilize searching, insertion, and deletion when needing to perform course management.   
+      </p>
+      <img src="assets/searching.png">
+      <br>
+      <br>
+      <img src="assets/valid.png">
+    </section>
+
+    <section>
+      <div class="section-banner">
+        <img src="assets/journal.jpg" alt="Narrative Banner" class="banner-image">
+        <div class="summary-header">
+            <h2>Narrative</h2>
+        </div>
+      </div>
+      <p> 
+        This enhancement represents a major milestone in my understanding of data structures and algorithmic problem-solving. I implemented a complete Binary Search Tree (BST) that supports core operations like searching, 
+        insertion, deletion, and in-order traversal. These improvements significantly enhanced the application's performance, organization, and scalability.
+        <br>
+        <br>
+        I prioritized secure and maintainable software design by preventing circular dependencies, duplicate course entries, and invalid prerequisites. To reinforce these areas, I created separate classes for the BST structure and for the validation logic, making the application more modular and testable. 
+        This enhancement demonstrates my technical growth as well as my ability to create real-world solutions using efficient data structures.  
+      </p>
+
+      <h2>Course Outcomes</h2>
+        <ul>
+          <li>Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science</li>
+          <li>Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts</li>
+          <li>Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices</li>
+          <li>Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals</li>
+          <li>Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources</li>
+        </ul>
+    </section>
+
+    <section>
+      <h2>Link to Repository</h2>
+      <p>
+        <a href="https://github.com/DylanCavazos1/DylanCavazos1.github.io/tree/main/artifacts/Enhancement%20Two" target="_blank">
+          View Enhancement Two Repository
+        </a>
+      </p>
+    </section>
+
+    <footer>
+      <p><a href="index.html">Back to Home</a></p>
+    </footer>
+  </main>
+</body>
+</html>
+
