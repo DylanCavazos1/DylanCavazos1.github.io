@@ -19,7 +19,7 @@ This ePortfolio highlights the three key areas of enhancement developed using th
 - Added CRUD operations with input validation and robust exception handling.
 - Included a Course class responsible for the creation and formatting of course objects.
 
-### Enhancement Two - Software Design and Engineering
+### Enhancement Two - Data Structures and Algorithms
 - Replaced the dictionary from first enhancement with a fully functional Binary Search Tree (BST).
 - Implemented in-order traversal, insertion, deletion, and search logic.
 - Included validation logic to mitigate redundant course logic for prerequisites.
