@@ -1,6 +1,6 @@
 # Milestone Two: Software Design and Engineering
 
-This artifact was created to support my knowledge and experience with applying software design and engineering principles towards enhancing a program with a more modular and readable language such as Python.  
+This enhancement was created to support my knowledge and experience with applying software design and engineering principles towards enhancing a program with a more modular and readable language such as Python.  
 
 # Key Features: 
 - Currently there is a 'Course' class and 'CourseManager_Python' class
