@@ -5,6 +5,10 @@ Welcome to my Computer Science Capstone ePortfolio, this portfolio showcases the
 View my ePortfolio here: 
 [https://dylancavazos1.github.io](https://dylancavazos1.github.io)
 
+Watch my Code Review Videos here:
+- [Milestone One Code Review Part One](https://youtu.be/ht1_IJ6qJv8)
+- [Milestone One Code Review Part Two](https://youtu.be/XJDGEYHm7I0)
+
 ## About my Portfolio
 This ePortfolio highlights the three key areas of enhancement developed using the Course Manager project:
 
